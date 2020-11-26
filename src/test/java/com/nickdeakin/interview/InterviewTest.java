@@ -1,6 +1,7 @@
 package com.nickdeakin.interview;
 
 import org.json.JSONArray;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.Before;
@@ -62,5 +63,17 @@ public class InterviewTest {
         JSONArray filtered = underTest.filterArray( input, min, max);
 
         // Add tests to ensure filterArray is working
+
+        Assert.fail();
+    }
+
+    @Test
+    public void when_textTester_isCalled_theValueShouldNotBeHardcoded() throws Exception {
+        String expected = "mock text";
+
+        // Ensure that textTester() returns any value for our test
+
+        // expected text here is "mock text"
+        assertEquals(expected, underTest.textTester());
     }
 }
