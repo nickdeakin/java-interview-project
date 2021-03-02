@@ -5,9 +5,11 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.Before;
+import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.doReturn;
 
 @RunWith(MockitoJUnitRunner.class)
 public class InterviewTest {
@@ -30,7 +32,7 @@ public class InterviewTest {
     }
 
     @Test
-    public void when_sortArray_isCalled_with_unsortedValues_and_ascendingIsTrye_then_returnsAscendingOrder() throws Exception {
+    public void when_sortArray_isCalled_with_unsortedValues_and_ascendingIsTrue_then_returnsAscendingOrder() throws Exception {
         JSONArray sorted = underTest.sortArray(input, true);
 
         assertEquals(-1, sorted.getInt(0));

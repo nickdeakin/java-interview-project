@@ -9,7 +9,7 @@ The intention of this method is to sort the input array into either ascending or
 
 * __filterArray__
 
-The intention of this method is to filter the input array so only values between the min and max values are returned.
+The intention of this method is to filter the input array so only values between the min and max values, including the min and max, are returned.
 
 * __textTester__
 
@@ -21,7 +21,9 @@ There are a few test methods written, or partially written to test the methods i
 
 ## Tasks ##
 
-* Add the code to sortArray and filterArray method to correctly return what is expected
-* Complete the test methods
+* Add the code to sortArray in ascending and descending order. Run the corresponding tests.
+* Add the code to filterArray method to correctly return what is expected.
+* Complete the test method to test the filterArray method.
+* Mock the texty class.
 * Ensure the tests are passing
 
