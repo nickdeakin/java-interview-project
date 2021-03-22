@@ -2,6 +2,8 @@
 
 ## Introduction ##
 
+Requires Java 11, maven and an IDE 
+
 There is a class with 3 methods, __InterviewImpl__
 * __sortArray__
 
