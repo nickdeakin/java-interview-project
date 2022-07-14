@@ -58,7 +58,7 @@ public class InterviewTest {
     }
 
     @Test
-    public void when_filterArray_isCalled_with_min5_and_max50_then_returnsValuesBetween5and50() throws Exception {
+    public void when_filterArray_isCalled_with_min5_and_max50_then_returnsValuesFrom5To50() throws Exception {
         int min = 5;
         int max = 50;
 

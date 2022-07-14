@@ -11,7 +11,7 @@ The intention of this method is to sort the input array into either ascending or
 
 * __filterArray__
 
-The intention of this method is to filter the input array so only values between the min and max values, including the min and max, are returned.
+The intention of this method is to filter the input array so only values from the min to the max values, including the min and max, are returned.
 
 * __textTester__
 
